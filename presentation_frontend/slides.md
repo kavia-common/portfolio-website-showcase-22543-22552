@@ -1,10 +1,9 @@
 ---
 # Global deck settings
-theme: default
-title: Your Presentation Title
+title: "Portfolio Website Showcase"
 info: |
-  Professional presentation template with dark theme
-  20 slides with modern components
+  Ocean Professional — Blue & Amber accents, minimalist, subtle gradients, rounded corners, and shadow details.
+  Full-screen slides, navigation sidebar, and branded header/footer for a polished presentation.
 class: text-left
 mdc: true
 transition: slide-left
@@ -13,392 +12,351 @@ fonts:
   mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
 css: |
   @import "./style.css";
+layout:
+  width: 1280
+  height: 720
 ---
 
-# PROJECT TITLE
+<!-- Header / Footer / Sidebar layout wrapper -->
+<OceanFrame>
+
+# Portfolio Website Showcase
 <div class="title-slide with-hero-glow">
   <div class="hero-copy">
-    <h2 class="text-hero">Transform Your Business with Innovation</h2>
-    <p class="subtitle text-md">A comprehensive solution for modern enterprises</p>
-    <div class="subtitle text-xs">Presenter Name • Date • contact@example.com</div>
+    <h2 class="text-hero">Designing Trust with Clarity</h2>
+    <p class="subtitle text-md">A modern, performant portfolio that converts visitors into clients</p>
+    <div class="subtitle text-xs">by Your Name • your@email.com • yoursite.com</div>
     <div class="hero-ctas mt-2">
-      <button class="btn-primary">Get Started</button>
-      <button class="btn-secondary">Learn More</button>
+      <button class="btn-primary">View Live</button>
+      <button class="btn-secondary">Case Study</button>
     </div>
   </div>
 </div>
 
----
-
-# The Challenge
-
-<div class="problem-grid">
-  <div class="problem-card">
-    <div class="eyebrow">Current State</div>
-    <h3 class="feature-title">Market Inefficiencies</h3>
-    <ul class="points-clean">
-      <li>Complex processes and workflows</li>
-      <li>Disconnected systems and data silos</li>
-      <li>High operational costs</li>
-    </ul>
-  </div>
-
-  <div class="problem-card">
-    <div class="eyebrow">Industry Trends</div>
-    <h3 class="feature-title">Rapid Digital Evolution</h3>
-    <ul class="points-clean">
-      <li>Accelerating technology adoption</li>
-      <li>Changing customer expectations</li>
-      <li>New competitive pressures</li>
-    </ul>
-  </div>
-
-  <div class="problem-card">
-    <div class="eyebrow">Gap Analysis</div>
-    <h3 class="feature-title">Missing Capabilities</h3>
-    <ul class="points-clean">
-      <li>Limited automation tools</li>
-      <li>Insufficient analytics</li>
-      <li>Poor integration options</li>
-      <li>Lack of scalability</li>
-    </ul>
-  </div>
-</div>
+</OceanFrame>
 
 ---
 
-# Our Solution
+<OceanFrame>
 
-A comprehensive platform that addresses key business challenges
-
-<div class="stats-band mt-2">
-  <div class="stat-card">
-    <div class="stat-number">10x</div>
-    <div class="stat-label">Faster Processing</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">50%</div>
-    <div class="stat-label">Cost Reduction</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">99.9%</div>
-    <div class="stat-label">Uptime</div>
-  </div>
-</div>
+# Vision & Design Philosophy
 
 <div class="card-grid three mt-2">
   <div class="feature-card">
-    <div class="eyebrow">Core</div>
-    <h3 class="feature-title">Intelligent Automation</h3>
-    <p class="muted">Streamline workflows with AI-powered processes</p>
+    <div class="eyebrow">Clarity</div>
+    <h3 class="feature-title">Minimal, Purposeful</h3>
+    <ul class="points-clean">
+      <li>Focus on essential content</li>
+      <li>Whitespace for readability</li>
+      <li>Typographic hierarchy</li>
+    </ul>
   </div>
 
   <div class="feature-card">
-    <div class="eyebrow">Integration</div>
-    <h3 class="feature-title">Seamless Connectivity</h3>
-    <p class="muted">Connect all your tools and systems effortlessly</p>
+    <div class="eyebrow">Craft</div>
+    <h3 class="feature-title">Ocean Professional Theme</h3>
+    <ul class="points-clean">
+      <li>Primary blue (#2563EB) accents</li>
+      <li>Amber (#F59E0B) highlights</li>
+      <li>Subtle gradients and shadows</li>
+    </ul>
   </div>
 
   <div class="feature-card">
-    <div class="eyebrow">Analytics</div>
-    <h3 class="feature-title">Real-time Insights</h3>
-    <p class="muted">Make data-driven decisions with powerful analytics</p>
+    <div class="eyebrow">Trust</div>
+    <h3 class="feature-title">Credibility Signals</h3>
+    <ul class="points-clean">
+      <li>Case studies & testimonials</li>
+      <li>Clear CTAs across pages</li>
+      <li>Accessible, responsive UI</li>
+    </ul>
   </div>
 </div>
 
+</OceanFrame>
+
 ---
 
-# Key Features
+<OceanFrame>
+
+# Feature Highlights
 
 <div class="split-cols mt-2">
   <div class="left">
     <div class="feature-card">
-      <h3 class="feature-title">Smart Dashboard</h3>
-      <p class="muted">Centralized control and monitoring</p>
+      <h3 class="feature-title">Hero With Value Proposition</h3>
+      <p class="muted">Clear headline, subcopy, primary CTA, and supporting proof.</p>
     </div>
     <div class="feature-card">
-      <h3 class="feature-title">Advanced Analytics</h3>
-      <p class="muted">Deep insights and predictive modeling</p>
+      <h3 class="feature-title">Project Gallery</h3>
+      <p class="muted">Filterable categories, rich thumbnails, quick case-study access.</p>
     </div>
     <div class="feature-card">
-      <h3 class="feature-title">Workflow Automation</h3>
-      <p class="muted">Streamline repetitive tasks</p>
+      <h3 class="feature-title">Case Studies</h3>
+      <p class="muted">Problem → Process → Outcome with metrics and visuals.</p>
     </div>
   </div>
   <div class="right">
     <div class="glass-frame tall">
-      <div class="placeholder">Product Screenshot / Dashboard UI</div>
+      <div class="placeholder">Mock: Hero section with blue gradient and CTA</div>
     </div>
   </div>
 </div>
 
----
-
-# Architecture Overview
-
-```mermaid
-%%{init: {
-  "theme": "dark",
-  "themeVariables": {
-    "primaryTextColor": "#E6EDF3",
-    "primaryColor": "#0B1220",
-    "lineColor": "#6E7681"
-  }
-}}%%
-
-flowchart TD
-    UI[🖥️ User Interface] --> API[⚙️ API Gateway]
-    API --> Auth[🔐 Authentication]
-    API --> Core[💼 Core Services]
-    Core --> DB[(📊 Database)]
-    Core --> Cache[(⚡ Cache)]
-    Core --> Queue[📬 Message Queue]
-    Queue --> Workers[🤖 Background Workers]
-    
-    style UI fill:#1C1A2B,stroke:#6B7FEB
-    style API fill:#1C1A2B,stroke:#6B7FEB
-    style Core fill:#1C1A2B,stroke:#6B7FEB
-    style DB fill:#2B2931,stroke:#40D79E
-    style Cache fill:#2B2931,stroke:#FFC75A
-```
+</OceanFrame>
 
 ---
 
-# Use Cases
+<OceanFrame>
 
-<div class="card-grid three mt-2">
-  <div class="feature-card"><h3 class="feature-title">Enterprise Resource Planning</h3><p class="muted">Unified business management</p></div>
-  <div class="feature-card"><h3 class="feature-title">Customer Relationship Management</h3><p class="muted">360-degree customer view</p></div>
-  <div class="feature-card"><h3 class="feature-title">Supply Chain Optimization</h3><p class="muted">End-to-end visibility</p></div>
-  <div class="feature-card"><h3 class="feature-title">Financial Analytics</h3><p class="muted">Real-time financial insights</p></div>
-  <div class="feature-card"><h3 class="feature-title">HR Management</h3><p class="muted">Streamlined HR processes</p></div>
-  <div class="feature-card"><h3 class="feature-title">Project Management</h3><p class="muted">Collaborative project tracking</p></div>
-</div>
+# Experience & Flow
 
----
-
-# Market Opportunity
-
-<div class="split-cols mt-2">
-  <div class="left">
-    <div class="feature-card">
-      <div class="eyebrow">TAM</div>
-      <h3 class="feature-title">Total Addressable Market</h3>
-      <p class="muted">$100B+ globally</p>
-    </div>
-    <div class="feature-card">
-      <div class="eyebrow">Growth</div>
-      <h3 class="feature-title">Market Expansion</h3>
-      <p class="muted">25% CAGR expected</p>
-    </div>
-    <div class="feature-card">
-      <div class="eyebrow">Segments</div>
-      <ul class="points-clean">
-        <li>Enterprise (500+ employees)</li>
-        <li>Mid-market (50-500)</li>
-        <li>SMB (under 50)</li>
-      </ul>
-    </div>
+<div class="stats-band mt-2">
+  <div class="stat-card">
+    <div class="stat-number">1.2s</div>
+    <div class="stat-label">Time to Interactive</div>
   </div>
-  <div class="right">
-    <div class="glass-frame">
-      <div class="placeholder">Market Size Chart</div>
-    </div>
+  <div class="stat-card">
+    <div class="stat-number">98</div>
+    <div class="stat-label">Lighthouse Perf</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">AA</div>
+    <div class="stat-label">Accessibility</div>
   </div>
 </div>
-
----
-
-# Competitive Landscape
-
-<div class="glass-frame wide mt-2">
-  <div class="placeholder">Competitive Positioning Matrix</div>
-</div>
-
-<div class="card-grid three mt-2">
-  <div class="feature-card">
-    <h3 class="feature-title">Our Advantages</h3>
-    <ul class="points-clean">
-      <li>Superior technology</li>
-      <li>Better user experience</li>
-      <li>Competitive pricing</li>
-    </ul>
-  </div>
-  <div class="feature-card">
-    <h3 class="feature-title">Market Position</h3>
-    <ul class="points-clean">
-      <li>Leader in innovation</li>
-      <li>Strong brand recognition</li>
-      <li>Growing market share</li>
-    </ul>
-  </div>
-  <div class="feature-card">
-    <h3 class="feature-title">Differentiators</h3>
-    <ul class="points-clean">
-      <li>AI-powered features</li>
-      <li>Seamless integrations</li>
-      <li>Enterprise-grade security</li>
-    </ul>
-  </div>
-</div>
-
----
-
-# Implementation Timeline
 
 <div class="timeline mt-2">
   <div class="time-node">
     <div class="time-dot"></div>
     <div class="time-card">
-      <div class="eyebrow">Phase 1: Q1 2025</div>
-      <h4>Foundation</h4>
+      <div class="eyebrow">Step 1</div>
+      <h4>Landing → Hero</h4>
       <ul class="points-clean">
-        <li>System architecture design</li>
-        <li>Core infrastructure setup</li>
-        <li>Initial team formation</li>
+        <li>Headline + CTA</li>
+        <li>Immediate credibility</li>
       </ul>
     </div>
   </div>
   <div class="time-node">
     <div class="time-dot"></div>
     <div class="time-card">
-      <div class="eyebrow">Phase 2: Q2 2025</div>
-      <h4>Development</h4>
+      <div class="eyebrow">Step 2</div>
+      <h4>Projects → Case Study</h4>
       <ul class="points-clean">
-        <li>MVP development</li>
-        <li>Beta testing program</li>
-        <li>Initial customer feedback</li>
+        <li>Filter by type</li>
+        <li>Outcome-focused stories</li>
       </ul>
     </div>
   </div>
   <div class="time-node">
     <div class="time-dot future"></div>
     <div class="time-card">
-      <div class="eyebrow">Phase 3: Q3 2025</div>
-      <h4>Launch</h4>
+      <div class="eyebrow">Step 3</div>
+      <h4>Contact → Conversion</h4>
       <ul class="points-clean">
-        <li>Public release</li>
-        <li>Marketing campaign</li>
-        <li>Customer onboarding</li>
+        <li>Short form</li>
+        <li>Calendly integration</li>
       </ul>
     </div>
   </div>
 </div>
 
+</OceanFrame>
+
 ---
 
-# Success Metrics
+<OceanFrame>
 
-<div class="stats-grid mt-2">
-  <div class="stat-card">
-    <div class="stat-number">1M+</div>
-    <div class="stat-label">Active Users</div>
+# Information Architecture
+
+```mermaid
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "primaryColor": "#2563EB",
+    "primaryTextColor": "#111827",
+    "lineColor": "#2563EB"
+  }
+}}%%
+flowchart LR
+    Landing[Landing / Home] --> About[About]
+    Landing --> Work[Projects]
+    Landing --> Services[Services]
+    Work --> CaseStudy1[Case Study A]
+    Work --> CaseStudy2[Case Study B]
+    Services --> Pricing[Pricing]
+    About --> Contact[Contact]
+```
+
+<div class="card mt-2">
+  <div class="overline">Notes</div>
+  <ul class="points-clean">
+    <li>Primary navigation persistent in header</li>
+    <li>Active section highlighted in sidebar</li>
+    <li>Footer includes socials and contact CTA</li>
+  </ul>
+</div>
+
+</OceanFrame>
+
+---
+
+<OceanFrame>
+
+# Visual Language
+
+<div class="card-grid three mt-2">
+  <div class="feature-card">
+    <div class="eyebrow">Color</div>
+    <h3 class="feature-title">Blue & Amber Accents</h3>
+    <ul class="points-clean">
+      <li>Primary: #2563EB</li>
+      <li>Secondary: #F59E0B</li>
+      <li>Error: #EF4444</li>
+    </ul>
   </div>
-  <div class="stat-card">
-    <div class="stat-number">$50M</div>
-    <div class="stat-label">ARR</div>
+
+  <div class="feature-card">
+    <div class="eyebrow">Surface</div>
+    <h3 class="feature-title">Light Surfaces</h3>
+    <ul class="points-clean">
+      <li>Background: #f9fafb</li>
+      <li>Surface: #ffffff</li>
+      <li>Text: #111827</li>
+    </ul>
   </div>
-  <div class="stat-card">
-    <div class="stat-number">95%</div>
-    <div class="stat-label">Retention Rate</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">150</div>
-    <div class="stat-label">Enterprise Clients</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">4.8</div>
-    <div class="stat-label">Customer Rating</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">24/7</div>
-    <div class="stat-label">Support</div>
+
+  <div class="feature-card">
+    <div class="eyebrow">Details</div>
+    <h3 class="feature-title">Modern Minimalist</h3>
+    <ul class="points-clean">
+      <li>Rounded corners</li>
+      <li>Soft drop shadows</li>
+      <li>Subtle gradients</li>
+    </ul>
   </div>
 </div>
 
+</OceanFrame>
+
 ---
 
-# Case Study
+<OceanFrame>
+
+# Components & Sections
+
+<div class="card-grid three mt-2">
+  <div class="feature-card">
+    <h3 class="feature-title">Hero & CTAs</h3>
+    <p class="muted">Prominent headline with primary actions to drive engagement.</p>
+  </div>
+  <div class="feature-card">
+    <h3 class="feature-title">Work Grid</h3>
+    <p class="muted">Responsive gallery with hover states and quick previews.</p>
+  </div>
+  <div class="feature-card">
+    <h3 class="feature-title">Testimonial Band</h3>
+    <p class="muted">Social proof with avatars, names, and outcomes.</p>
+  </div>
+  <div class="feature-card">
+    <h3 class="feature-title">Process</h3>
+    <p class="muted">Discovery → Design → Develop → Deliver, with clear steps.</p>
+  </div>
+  <div class="feature-card">
+    <h3 class="feature-title">Contact</h3>
+    <p class="muted">Short form, availability, and alternative channels.</p>
+  </div>
+  <div class="feature-card">
+    <h3 class="feature-title">Footer</h3>
+    <p class="muted">Branding, navigation, and legal links.</p>
+  </div>
+</div>
+
+</OceanFrame>
+
+---
+
+<OceanFrame>
+
+# Benefits
+
+<div class="stats-grid mt-2">
+  <div class="stat-card">
+    <div class="stat-number">+42%</div>
+    <div class="stat-label">Lead Conversion</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">-35%</div>
+    <div class="stat-label">Bounce Rate</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">+3x</div>
+    <div class="stat-label">Time on Site</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">A+</div>
+    <div class="stat-label">SEO Health</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">100%</div>
+    <div class="stat-label">Responsive</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">Fast</div>
+    <div class="stat-label">Edge Cached</div>
+  </div>
+</div>
+
+</OceanFrame>
+
+---
+
+<OceanFrame>
+
+# Case Study Snapshot
 
 <div class="split-cols mt-2">
   <div class="left">
     <div class="feature-card">
       <div class="eyebrow">Client</div>
-      <h3 class="feature-title">Fortune 500 Company</h3>
+      <h3 class="feature-title">Independent Designer</h3>
       <ul class="points-clean">
-        <li>10,000+ employees</li>
-        <li>Global operations</li>
-        <li>Complex IT infrastructure</li>
+        <li>Needed higher-quality leads</li>
+        <li>Wanted to showcase process and outcomes</li>
+        <li>Required easy content updates</li>
       </ul>
     </div>
     <div class="feature-card">
-      <div class="eyebrow">Challenge</div>
+      <div class="eyebrow">Approach</div>
       <ul class="points-clean">
-        <li>Fragmented systems</li>
-        <li>Manual processes</li>
-        <li>Limited visibility</li>
+        <li>Reworked information architecture</li>
+        <li>Focused on benefits and outcomes</li>
+        <li>Added case studies and testimonials</li>
       </ul>
     </div>
   </div>
   <div class="right">
     <div class="feature-card glass">
       <div class="eyebrow">Results</div>
-      <h3 class="feature-title">Transformation Achieved</h3>
+      <h3 class="feature-title">Measurable Impact</h3>
       <ul class="points-clean">
-        <li>60% efficiency improvement</li>
-        <li>$5M annual savings</li>
-        <li>Real-time insights</li>
+        <li>2.3x increase in qualified inquiries</li>
+        <li>Shorter sales cycles</li>
+        <li>Higher project values</li>
       </ul>
     </div>
     <div class="glass-frame short">
-      <div class="placeholder">ROI Chart</div>
+      <div class="placeholder">Before/After metrics chart</div>
     </div>
   </div>
 </div>
 
----
-
-# Pricing & Plans
-
-<div class="card-grid three mt-2">
-  <div class="feature-card">
-    <div class="eyebrow">Starter</div>
-    <h3 class="feature-title">$99/month</h3>
-    <ul class="points-clean">
-      <li>Up to 10 users</li>
-      <li>Basic features</li>
-      <li>Email support</li>
-      <li>5GB storage</li>
-    </ul>
-    <button class="btn-secondary mt-2">Choose Plan</button>
-  </div>
-  <div class="feature-card">
-    <div class="pill">Popular</div>
-    <h3 class="feature-title">$299/month</h3>
-    <ul class="points-clean">
-      <li>Up to 50 users</li>
-      <li>Advanced features</li>
-      <li>Priority support</li>
-      <li>100GB storage</li>
-      <li>API access</li>
-    </ul>
-    <button class="btn-primary mt-2">Choose Plan</button>
-  </div>
-  <div class="feature-card">
-    <div class="eyebrow">Enterprise</div>
-    <h3 class="feature-title">Custom</h3>
-    <ul class="points-clean">
-      <li>Unlimited users</li>
-      <li>All features</li>
-      <li>Dedicated support</li>
-      <li>Unlimited storage</li>
-      <li>Custom integrations</li>
-    </ul>
-    <button class="btn-secondary mt-2">Contact Sales</button>
-  </div>
-</div>
+</OceanFrame>
 
 ---
+
+<OceanFrame>
 
 # Technology Stack
 
@@ -406,169 +364,155 @@ flowchart TD
   <div class="feature-card">
     <div class="eyebrow">Frontend</div>
     <ul class="points-clean">
-      <li>React / Vue.js / Angular</li>
+      <li>Vue / React</li>
       <li>TypeScript</li>
-      <li>Tailwind CSS</li>
+      <li>Tailwind-like utility approach</li>
     </ul>
   </div>
   <div class="feature-card">
     <div class="eyebrow">Backend</div>
     <ul class="points-clean">
-      <li>Node.js / Python / Go</li>
-      <li>GraphQL / REST APIs</li>
-      <li>Microservices</li>
+      <li>Static-first, Jamstack</li>
+      <li>Edge deploy</li>
+      <li>Content via Markdown / CMS</li>
     </ul>
   </div>
   <div class="feature-card">
-    <div class="eyebrow">Infrastructure</div>
+    <div class="eyebrow">Tooling</div>
     <ul class="points-clean">
-      <li>AWS / Azure / GCP</li>
-      <li>Kubernetes</li>
-      <li>CI/CD pipelines</li>
+      <li>CI/CD to Netlify/Vercel</li>
+      <li>Analytics & SEO tooling</li>
+      <li>Automated image optimizations</li>
     </ul>
   </div>
   <div class="feature-card">
-    <div class="eyebrow">Data</div>
+    <div class="eyebrow">Performance</div>
     <ul class="points-clean">
-      <li>PostgreSQL / MongoDB</li>
-      <li>Redis</li>
-      <li>Elasticsearch</li>
+      <li>Code-splitting</li>
+      <li>Lazy media</li>
+      <li>Pre-rendered pages</li>
+    </ul>
+  </div>
+  <div class="feature-card">
+    <div class="eyebrow">Accessibility</div>
+    <ul class="points-clean">
+      <li>Keyboard navigable</li>
+      <li>Color contrast checked</li>
+      <li>ARIA where needed</li>
     </ul>
   </div>
   <div class="feature-card">
     <div class="eyebrow">Security</div>
     <ul class="points-clean">
-      <li>End-to-end encryption</li>
-      <li>OAuth 2.0 / SAML</li>
-      <li>SOC 2 compliant</li>
+      <li>Headers and CSP defaults</li>
+      <li>Form validation</li>
+      <li>Privacy-first analytics</li>
     </ul>
   </div>
+</div>
+
+</OceanFrame>
+
+---
+
+<OceanFrame>
+
+# Pricing Options
+
+<div class="card-grid three mt-2">
   <div class="feature-card">
-    <div class="eyebrow">Monitoring</div>
+    <div class="eyebrow">Starter</div>
+    <h3 class="feature-title">$799</h3>
     <ul class="points-clean">
-      <li>Prometheus / Grafana</li>
-      <li>ELK Stack</li>
-      <li>APM tools</li>
+      <li>1-page portfolio</li>
+      <li>Basic SEO</li>
+      <li>Launch support</li>
     </ul>
+    <button class="btn-secondary mt-2">Get Started</button>
+  </div>
+  <div class="feature-card">
+    <div class="pill">Popular</div>
+    <h3 class="feature-title">$2,499</h3>
+    <ul class="points-clean">
+      <li>Multi-page site</li>
+      <li>Case study templates</li>
+      <li>Analytics & SEO pack</li>
+      <li>Performance tuning</li>
+    </ul>
+    <button class="btn-primary mt-2">Choose Plan</button>
+  </div>
+  <div class="feature-card">
+    <div class="eyebrow">Custom</div>
+    <h3 class="feature-title">From $5,000</h3>
+    <ul class="points-clean">
+      <li>Tailored design system</li>
+      <li>CMS integration</li>
+      <li>Advanced animations</li>
+    </ul>
+    <button class="btn-secondary mt-2">Contact</button>
   </div>
 </div>
+
+</OceanFrame>
 
 ---
 
-# Team
+<OceanFrame>
 
-<div class="card-grid four mt-2">
-  <div class="feature-card">
-    <h4 class="feature-title">CEO</h4>
-    <p class="muted small">20+ years experience</p>
-    <p class="muted small">Former Fortune 500 exec</p>
-  </div>
-  <div class="feature-card">
-    <h4 class="feature-title">CTO</h4>
-    <p class="muted small">15+ years in tech</p>
-    <p class="muted small">Ex-FAANG engineer</p>
-  </div>
-  <div class="feature-card">
-    <h4 class="feature-title">CPO</h4>
-    <p class="muted small">Product visionary</p>
-    <p class="muted small">3 successful exits</p>
-  </div>
-  <div class="feature-card">
-    <h4 class="feature-title">CFO</h4>
-    <p class="muted small">Finance expert</p>
-    <p class="muted small">IPO experience</p>
-  </div>
-</div>
-
-<div class="card mt-2">
-  <h3>Advisory Board</h3>
-  <ul class="points-clean">
-    <li>Industry veterans from leading tech companies</li>
-    <li>Domain experts in enterprise software</li>
-    <li>Strategic advisors with deep market connections</li>
-  </ul>
-</div>
-
----
-
-# Customer Testimonials
+# Testimonials
 
 <div class="card-grid two mt-2">
   <div class="feature-card glass">
-    <p class="muted">"This platform transformed our operations. We've seen incredible efficiency gains and cost savings."</p>
+    <p class="muted">"The new portfolio elevated our brand instantly. Leads are better, conversations are easier."</p>
     <div class="mt-2">
-      <strong>John Smith</strong><br>
-      <span class="text-xs muted">CTO, Tech Corp</span>
+      <strong>Alex Rivera</strong><br>
+      <span class="text-xs muted">Founder, Clearline Studio</span>
     </div>
   </div>
   <div class="feature-card glass">
-    <p class="muted">"The best investment we've made. ROI was evident within the first quarter."</p>
+    <p class="muted">"Thoughtful design and excellent performance. Our time on page tripled."</p>
     <div class="mt-2">
-      <strong>Jane Doe</strong><br>
-      <span class="text-xs muted">CEO, Innovation Inc</span>
+      <strong>Maya Chen</strong><br>
+      <span class="text-xs muted">Director, Vertex Labs</span>
     </div>
   </div>
 </div>
 
+</OceanFrame>
+
 ---
+
+layout: center
+class: text-center
+---
+
+<OceanFrame noSidebar>
 
 # Next Steps
 
 <div class="cta-band">
   <div>
     <div class="overline">Get Started Today</div>
-    <h2 class="text-hero">Ready to Transform Your Business?</h2>
-    <p class="muted">Join thousands of companies already using our platform</p>
+    <h2 class="text-hero">Let’s Craft a Compelling Portfolio</h2>
+    <p class="muted">Clarity, credibility, and conversions—beautifully executed.</p>
     <div class="cta-actions">
-      <button class="btn-primary">Start Free Trial</button>
-      <button class="btn-secondary">Schedule Demo</button>
+      <button class="btn-primary">Book a Call</button>
+      <button class="btn-secondary">Download Brief</button>
     </div>
   </div>
   <div>
     <div class="card">
       <div class="eyebrow">Contact</div>
       <ul class="points-clean">
-        <li>Sales: sales@example.com</li>
-        <li>Support: support@example.com</li>
-        <li>Phone: 1-800-EXAMPLE</li>
+        <li>Email: hello@yoursite.com</li>
+        <li>Web: yoursite.com</li>
+        <li>City: Remote / Worldwide</li>
       </ul>
-      <div class="muted small mt-4">www.example.com</div>
+      <div class="muted small mt-4">© 2025 Your Name</div>
     </div>
   </div>
 </div>
 
----
-
-# Appendix
-
-<div class="card-grid two mt-2">
-  <div class="feature-card">
-    <h3 class="feature-title">Resources</h3>
-    <ul class="points-clean">
-      <li>Technical documentation</li>
-      <li>API reference</li>
-      <li>Video tutorials</li>
-      <li>Community forum</li>
-    </ul>
-  </div>
-  <div class="feature-card">
-    <h3 class="feature-title">Legal</h3>
-    <ul class="points-clean">
-      <li>Terms of service</li>
-      <li>Privacy policy</li>
-      <li>Security compliance</li>
-      <li>SLA agreements</li>
-    </ul>
-  </div>
-</div>
-
----
-layout: center
-class: text-center
----
-
-# Thank You
-
-Questions?
-
 <div class="mt-4 subtle">Press S for presenter mode • Press E to open editor • Use arrow keys to navigate</div>
+
+</OceanFrame>
